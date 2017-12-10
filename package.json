@@ -1,0 +1,25 @@
+{
+  "name": "node-koa-demo",
+  "version": "1.0.0",
+  "description": "node koa demo",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongfox/node-koa-demo.git"
+  },
+  "keywords": [
+    "node-koa-demo"
+  ],
+  "author": "zhongfox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhongfox/node-koa-demo/issues"
+  },
+  "homepage": "https://github.com/zhongfox/node-koa-demo#readme",
+  "dependencies": {
+    "koa": "^2.4.1"
+  }
+}
