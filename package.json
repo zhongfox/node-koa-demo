@@ -21,7 +21,8 @@
   "homepage": "https://github.com/zhongfox/node-koa-demo#readme",
   "dependencies": {
     "chai": "^4.1.2",
-    "koa": "^2.4.1"
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
