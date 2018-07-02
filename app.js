@@ -2,8 +2,7 @@ const Koa = require('koa');
 const app = new Koa();
 
 app.use(async ctx => {
-  console.log("hello nerd");
-  console.log("who is nerd?");
+  console.log("hello tag6");
   ctx.body = 'Hello World tag6';
 });
 
