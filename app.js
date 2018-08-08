@@ -5,7 +5,7 @@ const serve = require('koa-static');
 app.use(async (ctx, next) => {
   if (ctx.request.path === '/') {
     console.log("hello master");
-    ctx.response.body = `<h1>HELLO, WORLD latest</h1> <script src="/index.js"></script>`;
+    ctx.response.body = `<h1>HELLO, WORLD LATEST</h1> <script src="/index.js"></script>`;
   } else {
     await next();
   }
